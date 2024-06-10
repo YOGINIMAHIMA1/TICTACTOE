@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIC TAC TOE</title>
+  <style>
+   
+
+    .row
+    {
+      
+       display: flex;
+    }
+    .col
+    {
+      height:70px;
+      width:80px;
+      border: 1px solid black;
+      background-color: rgb(127, 223, 145);
+      cursor:pointer;
+      font-size:50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      align-items: center;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="row">
+      <div onclick="handle(this)"  id="0" class="col"></div>
+      <div onclick="handle(this)" id="1"class="col"></div>
+      <div onclick="handle(this)" id="2" class="col"></div>
+    </div>
+    <div class="row">
+      <div onclick="handle(this)" id="3" class="col"></div>
+      <div onclick="handle(this)" id="4" class="col"></div>
+      <div onclick="handle(this)" id="5"class="col"></div>
+    </div>
+    <div class="row">
+      <div  onclick="handle(this)"id="6" class="col"></div>
+      <div onclick="handle(this)" id="7"  class="col"></div>
+      <div onclick="handle(this)" id="18" class="col"></div>
+    </div>
+
+  </div>
+  <script src="index.js"> 
+  </script>
+</body>
+</html>
