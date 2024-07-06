@@ -15,13 +15,16 @@
     .col
     {
       height:70px;
-      width:80px;
+      width:70px;
       border: 1px solid black;
       background-color: rgb(127, 223, 145);
       cursor:pointer;
-      font-size:50px;
+      font-size:30px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      display:flex;
       align-items: center;
+      justify-content: center;
+
     }
     
   </style>
@@ -29,19 +32,19 @@
 <body>
   <div class="grid">
     <div class="row">
-      <div onclick="handle(this)"  id="0" class="col"></div>
-      <div onclick="handle(this)" id="1"class="col"></div>
-      <div onclick="handle(this)" id="2" class="col"></div>
+      <div onclick="handle(this)"  id="0" class="col">0</div>
+      <div onclick="handle(this)" id="1"class="col">1</div>
+      <div onclick="handle(this)" id="2" class="col">2</div>
     </div>
     <div class="row">
-      <div onclick="handle(this)" id="3" class="col"></div>
-      <div onclick="handle(this)" id="4" class="col"></div>
-      <div onclick="handle(this)" id="5"class="col"></div>
+      <div onclick="handle(this)" id="3" class="col">3</div>
+      <div onclick="handle(this)" id="4" class="col">4</div>
+      <div onclick="handle(this)" id="5"class="col">5</div>
     </div>
     <div class="row">
-      <div  onclick="handle(this)"id="6" class="col"></div>
-      <div onclick="handle(this)" id="7"  class="col"></div>
-      <div onclick="handle(this)" id="18" class="col"></div>
+      <div  onclick="handle(this)"id="6" class="col">6</div>
+      <div onclick="handle(this)" id="7"  class="col">7</div>
+      <div onclick="handle(this)" id="18" class="col">8</div>
     </div>
 
   </div>
